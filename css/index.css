@@ -1,0 +1,171 @@
+.banner{
+	min-height: 800px;
+}
+.banner_txt{
+	width: 65%;
+	margin:288px 47px 0 352px;
+	color: #fff;
+}
+.banner_txt h1{
+	font-size: 45px;
+}
+.banner_txt p{
+	font-size: 14px;
+	color: #DFDFDF;
+	margin: 14px 0 28px;
+	line-height: 25px;
+	width: 80%;
+}
+.more{
+	color: #fff;
+}
+.more a{
+	display: inline-block;
+	padding: 10px 30px;
+	transition: .5s;
+	background-color: #6ea145;
+}
+.banner .more a:hover{
+	color: #6EA145;
+	background: #fff;
+}
+.container img{
+	width: 100%;
+}
+.section_1{
+	margin: 80px 0;
+}
+.section_1 h3{
+	font-size: 29px;
+	color: #6ea145;
+	margin-top: 0;
+}
+.section_1 h5{
+	font-size: 15px;
+	color: #9D4922;
+	margin: 15px 0;
+}
+.section_1 p{
+	font-size: 14px;
+	color: #999;
+	line-height: 1.8em;
+	margin: 0 0 4em;
+}
+.more a:hover{
+	background: #c6c5c0;
+	color: #fff;
+}
+.section_2_main{
+	padding-bottom:48px;
+	box-shadow: 1px 0px 1px #C0C0C0;
+}
+.section_2 h3{
+	color: #9D4922;
+}
+.section_2 p{
+	color: #C7C7C7;
+	font-size: 14px;
+	margin: 14px 0 28px;
+	line-height: 1.8em;
+}
+/*轮播*/
+.carousel{
+	margin: 80px 0 160px
+}
+.top_left{
+	width: 55%;
+}
+.top_right{
+	width: 45%;
+	background: url(../img/Home/7.jpg) no-repeat 0px 0px;
+	min-height: 417px;
+	padding: 2em;
+}
+.top_right h3{
+	color: #fff;
+	font-size: 1.8em;
+	margin: 0;
+}
+.top_right h4{
+	font-size: 20px;
+	margin: 1em 0;
+	line-height: 1.3em;
+	color: #6ea145;
+}
+.carousel-inner p{
+	color: #fff;
+	margin: 0;
+	line-height: 1.8em;
+}
+.carousel_bottom{
+	margin-top: 48px;
+}
+.bottom_left{
+	width: 30%;
+	background: url(../img/Home/8.jpg) no-repeat;
+	min-height: 301px;
+	padding: 2em;
+}
+.bottom_left h3{
+	color: #fff;
+	font-size: 1.8em;
+	margin: 0 0 21px;
+}
+.bottom_center{
+	width: 40%;
+}
+.bottom_right{
+	width: 28%;
+	background: url(../img/Home/10.jpg) no-repeat ;
+	min-height: 301px;
+	padding: 8em 0 0;
+	text-align: center;
+}
+.carousel-indicators{
+	bottom: -100px;
+}
+.carousel-indicators li{
+	background: #6EA145;
+	width: 20px;
+	height: 20px;
+	margin: 0 3px;
+}
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    background-color: #C6C5C0;
+}
+
+.keep{
+	padding: 5em 0;
+	background-color: #E6E6E6;
+}
+.keep .col-xs-4 h3{
+	font-size: 40px;
+	color: #6ea145;
+	margin: 0;
+}
+.keep .col-xs-4 p{
+	font-size: 14px;
+	color: #999;
+	margin: 0;
+}
+.keep .col-xs-8{
+	font-size: 0;
+}
+.keep .email{
+	width: 80%;
+	background: #fff;
+	font-size: 14px;
+	color: #A2A2A2;
+	padding: 14px 10px;
+	vertical-align: middle;
+}
+.keep .submit{
+	font-size: 14px;
+	width: 20%;
+	background:#6ea145 url(../img/Home/1.png) no-repeat 56px 11px ;
+	padding: 14px 0;
+	vertical-align: middle;
+}

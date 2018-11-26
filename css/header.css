@@ -1,0 +1,105 @@
+/*头部*/
+.banner {
+	width: 100%;
+	background: url(../img/Home/banner.jpg) no-repeat 0px 0px;
+	background-size:cover ;
+	min-height: 300px;
+}
+.logo {
+	padding: 64px 32px 32px;
+	background: #c6c5c0;
+	color: #fff;
+	font-size: 32px;
+	display: inline-block;
+}
+a{
+	color: inherit;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.logo em{
+	display: block;
+	font-size: 16px;
+}
+nav.pull-left{
+	margin-left: 192px;
+	color: #fff;
+}
+.nav-pills li{
+	margin-left:10px;
+}
+.nav-pills li a{
+	font-size: 16px;
+	padding: 45px 30px;
+	border-radius: 0;
+}
+.nav-pills a.active{
+	background: #6ea145;
+}
+.nav li a:hover {
+    background-color: #6ea145;
+}
+.nav-pills .glyphicon{
+	display: block;
+	text-align: center;
+	margin-top: 8px;
+}
+.header-right{
+	padding-top: 64px;
+}
+.header-right li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-icon{
+	width:32px ;
+	height: 32px;
+	background-image:url(../img/Home/img-sp.png) ;
+	background-repeat:no-repeat ;
+}
+.header-right li:nth-child(1) .header-icon{
+	background-position:-5px -13px ;
+}
+.header-right li:nth-child(2) .header-icon{
+	background-position:-48px -13px ;
+}
+.header-right li:nth-child(3) .header-icon{
+	background-position:-86px -13px ;
+} 
+.header-right li .header-icon:hover{
+	background-position-y:-59px ;
+}
+
+/*尾部*/
+.footer{
+	padding: 4em 0;
+	background: #242424;
+	color: #848484;
+}
+.footer h3{
+	letter-spacing: 2px;
+    font-size: 1.4em;
+    color: #fff;
+}
+.footer li{
+	padding: 5px 0;
+}
+.footer .col-xs-4 h3{
+	font-size: 48px;
+}
+.footer .col-xs-4 h3 span{
+	font-size: 15px;
+}
+.footer .header-right{
+	padding: 16px 0;
+}
+.footer .header-right{
+	margin: 0;
+}
+.footer .col-xs-4 a{
+	font-size: 15px;
+	color: #fff;
+	display: inline-block;
+}
