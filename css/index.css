@@ -16,15 +16,7 @@
 	line-height: 25px;
 	width: 80%;
 }
-.more{
-	color: #fff;
-}
-.more a{
-	display: inline-block;
-	padding: 10px 30px;
-	transition: .5s;
-	background-color: #6ea145;
-}
+
 .banner .more a:hover{
 	color: #6EA145;
 	background: #fff;
@@ -51,10 +43,7 @@
 	line-height: 1.8em;
 	margin: 0 0 4em;
 }
-.more a:hover{
-	background: #c6c5c0;
-	color: #fff;
-}
+
 .section_2_main{
 	padding-bottom:48px;
 	box-shadow: 1px 0px 1px #C0C0C0;

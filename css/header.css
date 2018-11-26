@@ -72,6 +72,19 @@ nav.pull-left{
 	background-position-y:-59px ;
 }
 
+.more{
+	color: #fff;
+}
+.more a{
+	display: inline-block;
+	padding: 10px 30px;
+	transition: .5s;
+	background-color: #6ea145;
+}
+.more a:hover{
+	background: #c6c5c0;
+	color: #fff;
+}
 /*尾部*/
 .footer{
 	padding: 4em 0;
